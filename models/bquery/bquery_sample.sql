@@ -1,0 +1,1 @@
+select  * from my-first-project-445205.bquery_demo.customers
