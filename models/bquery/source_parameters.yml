@@ -1,0 +1,9 @@
+version: 2
+sources:
+  - name: bigquery
+    #project: my-first-project-445205
+    database: my-first-project-445205
+    schema: dbt_ld
+    tables:
+      - name: customers_sample
+      - name: orders_sample
