@@ -7,5 +7,16 @@ models:
         tests:
           - unique
           - not_null
+      - name: CustomerName
+        tests:
+          - not_null
+      - name : Segment
+        tests:
+          - accepted_values:
+              values:
+                - 'Consumer'
+                - 'Corporate'
+                - 'Home Office'
+        
               
               
